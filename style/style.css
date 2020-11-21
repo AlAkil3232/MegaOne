@@ -1,0 +1,600 @@
+* {
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+header {
+    background-color: rgb(238, 140, 12);
+    height: 100vh;
+}
+.header .container {
+    width: 100%;
+    margin: auto;
+    padding: 0px 100px;
+    background-color: white;
+    height: 72px;
+    position: fixed;
+    
+}
+.logo {
+    float: left;
+    background-color: white;
+}
+.logo img {
+    width: 150px;
+    padding: 20px 0px;
+    cursor: pointer;
+}
+.navbar {
+    float: right;
+    background-color: white;
+}
+.navbar a {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    margin: 20px 0px 20px 20px ;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px;
+}
+.navbar a:first-child {
+    color: rgb(15, 93, 238);
+    border-bottom: 4px solid rgb(15, 93, 238);
+}
+.navbar a:hover {
+    color: rgb(15, 93, 238);
+}
+.hero {
+    float: left;
+    margin: 250px 0px 0px 145px;
+}
+.header .hero h1, p, a {
+    padding: 0px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: white;
+}
+.hero h1 {
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.hero h1 span {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hero p {
+    line-height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero a{
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero a:hover {
+    color: black;
+    background-color: white;
+    transition: 1s;
+}
+.hero-img{
+    float: right;
+    padding: 250px 90px 0px;
+}
+.hero-img img {
+    width: 460px;
+}
+.div {
+    height: 300px;
+    clear: both;
+}
+/*contant start*/
+.content {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(120, 53, 196);
+}
+.content .container {
+    width: 45%;
+    float: right;
+    margin-top: 125px;
+}
+.content .container .box {
+    width: 220px ;
+    height: 220px;
+    border: 2px solid rgb(250, 250, 250);
+    margin: 10px;
+    padding: 20px;
+    float: left;
+}
+.content .container .box1 {
+    margin-top: 130px;
+}
+.content .container .box i, h1, p, a {
+    padding: 10px;
+    color: white;
+}
+.content .container .box a {
+    float: right;
+    padding-bottom: 0px;
+}
+.content .box i {
+    font-size: 20px;
+    border-radius: 5px;
+}
+.content .container .box:hover, 
+.box:hover>i, 
+.box:hover>h1,
+.box:hover>p,
+.box:hover>a {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.content .box:hover> i {
+    color: black;
+}
+.content .img{
+    float: left;
+    padding: 250px 90px 0px;
+}
+.content .img img {
+    width: 460px;
+}
+/*content end*/
+/*skill start*/
+.skill {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(22, 115, 221);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.skill .skill-details {
+    float: left;
+    width: 30%;
+    margin: 120px 0px 0px 120px;
+}
+.skill-details p {
+    font-size: 20px;
+}
+.skill-details h1 {
+    font-size: 50px;
+}
+.skill-details .persent {
+    float: right;
+}
+.skill .skill-details .progress-itm #file {
+    width: 100%;
+    border-radius: 50px;
+    background-color: white;
+}
+.skill-details .progress-itm {
+    margin: 50px 0px;
+}
+progress {
+    height: 10px;
+}
+progress[value]::-webkit-progress-bar {
+    background-color: #ededed;
+    border-radius: 40px;
+    height: 10px;
+  }
+  
+progress[value]::-webkit-progress-value {
+    border-radius: 40px;
+    background-color:rgb(10, 10, 10);
+    height: 10px;
+  }
+  .skill-details a {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+.skill-details a:hover {
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+  .skill-img {
+      float: right;
+      padding: 220px 0px 0px 50px ;
+      width: 50%;
+  }
+  .skill-img img {
+      width: 450px ;  
+      margin: auto;
+  }
+  /*services end*/
+  /*workcount start*/
+  .workcount {
+      width: 100%;
+      height: 100vh;
+      background-color: rgb(221, 136, 24);
+  }
+  .workcount .workcount-img {
+      float: left;
+      margin: 230px 0px 0px 50px;
+  }
+  .workcount .workcount-img img {
+      width: 500px;
+  }
+  .workcount .itmcount {
+      float: right;
+      width: 50%;
+      margin-top: 200px;
+      margin-right: 100px;
+  }
+  .workcount .itmcount .itm1st {
+      width: 580px;
+      margin: auto;
+  }
+  .workcount .itmcount .itm2nd {
+    width: 386px;
+    margin: auto;
+}
+.workcount .itmcount .itm {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 75px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+.workcount .itmcount .itm i {
+    color: white;
+    font-size: 50px;
+    margin-top: 20px;
+}
+.workcount .itmcount .itm span {
+    color: white;
+    font-size: 20px;
+}
+.workcount .itmcount .itm:hover {
+    background-color: white;
+    color: black;
+}
+.workcount .itmcount .itm:hover>i {
+    color: black;
+}
+.workcount .itmcount .itm:hover>span {
+    color: black;
+}
+.workcount .itmcount .itm:hover>p {
+    color: black;
+}
+/*workcount END*/
+/*portfolio start*/
+.portfolio {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(231, 70, 12);
+}
+.portfolio .porttext {
+    float: left;
+    width: 30%;
+    margin: 150px 0px 0px 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.portfolio .porttext h1 {
+    font-size: 50px;
+}
+.portfolio .porttext p {
+    line-height: 30px;
+    padding: 50px 0px;
+}
+.portfolio .porttext a {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+.portfolio .porttext a:hover {
+    background-color: white;
+    color: black;
+}
+.portimg {
+    float: right;
+    padding: 220px 200px 0px 0px ;
+    width: 50%;
+}
+.portimg img {
+    width: 450px ;  
+    margin: auto;
+    float: right;
+}
+/*portfolio end*/
+/*pricing start*/
+.pricing .pricingimg {
+    float: left;
+    margin: 165px 0px 0px 100px;
+}
+.pricing .pricingimg img {
+    width: 500px;
+}
+
+
+.pricing {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(228, 13, 48);
+    text-align: center;
+}
+.pricing .pricingbox {
+    float: right;
+    width: 40%;
+    margin: 100px 100px 0px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pricing .pricingbox h1 {
+    font-size: 50px;
+}
+.pricing .pricingbox .box1 h3, .pricing .pricingbox .box2 h3 {
+    color: white;
+    letter-spacing: 1px;
+    font-size: 20px;
+    border-bottom: 1px dotted white;
+}
+.pricing .pricingbox .box1 {
+    float: left;
+    width: 50%;
+    border-right: 1px dotted white;
+    padding-right: 20px;
+
+}
+.pricing .pricingbox .box2 {
+    float: right;
+    width: 50%;
+    padding-left: 20px;
+}
+.pricingbox p {
+    line-height: 45px;
+}
+.pricingbox b {
+    font-size: 30px;
+    color: white;
+}
+.pricingbox span {
+    color: white;
+}
+.pricingbox a {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+.pricingbox a:hover {
+    color: black;
+    background-color: white;
+}
+
+/*pricing end*/
+/*reviews start*/
+.reviews {
+    width: 100%;
+    height: 100vh;
+    background-color: teal;
+    text-align: center;
+}
+.reviews .reviewbox {
+    float: left;
+    width: 350px;
+    margin: 200px 0px 0px 100px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.reviews .reviewbox .revitm {
+    width: 350px;
+    height: 300px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+}
+.reviews .reviewbox .revitm p {
+    color: rgb(107, 102, 102);
+    font-size: 20px;
+    line-height: 30px;
+
+}
+.reviews .reviewbox .revitm .star {
+    margin: 10px 0px 25px 0px;
+}
+.reviews .reviewbox .revitm img {
+    display: inline-block;
+    border-radius: 50px;
+    position: relative;
+    bottom: -50;
+} 
+.reviewbox h1 {
+    margin-top: 55px;
+    padding: 0px;
+}
+.reviewimg {
+    float: right;
+    padding: 220px 200px 0px 0px ;
+    width: 50%;
+}
+.reviewimg img {
+    width: 450px ;  
+    margin: auto;
+    float: right;
+}
+/*review end*/
+/*contact start*/
+.contact .contimg {
+    float: left;
+    margin: 200px 0px 0px 100px;
+}
+.contact .contimg img {
+    width: 500px;
+}
+
+.contact {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(236, 159, 159);
+}
+.contact .form {
+    float: right;
+    width: 40%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin: 100px 100px 0px 0px ;
+}
+.fname {
+    width: 50%;
+    float: left;
+    
+}
+#fname {
+    width: 90%;
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid white;
+    margin-right: 25px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.lname {
+    width: 50%;
+    float: right;
+}
+#lname {
+    width: 90%;
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid white;
+    margin-left: 25px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.email {
+    width: 50%;
+    float: left;
+}
+#email {
+    width: 90%;
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid white;
+    margin-right: 25px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.subject {
+    width: 50%;
+    float: right;
+}
+#subject {
+    width: 90%;
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid white;
+    margin-left: 25px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.message {
+    width: 100%;
+}
+textarea {
+    width: 100%;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    color: white;
+    float: left;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.submit {
+    width: 100%;
+}
+
+input[type="submit"] {
+    width: 100%;
+    border-radius: 20px;
+    padding: 15px;
+    clear: both;
+}
+#submit:hover {
+    background-color: rgb(27, 40, 226);
+    color: white;
+}
+input:focus {
+    outline: none;
+  }
+textarea:focus {
+    outline: none;
+}
+/*end*/
+/*start*/
+.address {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(84, 14, 177);
+}
+.address .addressbox {
+    display: inline-block;
+    width: 40%;
+    padding: 130px 0px 0px 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.address .addressbox h1 {
+    font-size: 50px;
+}
+.address .addressbox p {
+    font-size: 25px;
+}
+.address .addressbox .socialbtn a i {
+    width: 50px;
+    text-align: center;
+    padding: 16px;
+    border-radius: 30px;
+}
+.address .addressbox .socialbtn a i:hover {
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+}
+.addimg {
+    float: right;
+    width: 50%;
+    padding: 195px 100px 0px 50px;
+}
+.addimg img {
+    width: 450px;
+}
+/*END*/
+.mycradit {
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#e66465, #9198e5);
+}
+.crbox {
+    width: 900px;
+    margin: auto;
+    padding-top: 400px;
+}
+.crbox a i {
+    width: 50px;
+    text-align: center;
+    padding: 16px;
+    border-radius: 30px;
+}
+.crbox a i:hover {
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.crbox p {
+    padding: 50px;
+}
+.crbox p span {
+    background-color: red;
+    padding: 10px;
+}
